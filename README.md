@@ -18,21 +18,33 @@ in it (e.g. with source db.sql).
 Then install all the needed modules:
 
 > cpan -i Path::Tiny
+
 > cpan -i List::MoreUtils
+
 > cpan -i Digest::MD5
+
 > cpan -i Encode
+
 > cpan -i LWP::Simple
+
 > cpan -i Data::Dumper
+
 > cpan -i DBIx::Simple
+
 > cpan -i Term::ANSIColor
+
 > cpan -i URI::Encode
+
 > cpan -i String::ShellQuote
+
 > cpan -i DBI
 
 # Set environment variables
 
 > DBUSER=...
+
 > DBPASS=...
+
 > PLACESSQLITEPATH=~/.mozilla/firefox/RANDOMSTRING.default_RANDOMNUMBER/places.sqlite
 
 # Run it
